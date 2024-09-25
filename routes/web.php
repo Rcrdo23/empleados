@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('empleados');
+    return view('/empleados');
 });
 
    Route::resource('empleados', EmpleadoController::class);
